@@ -5,6 +5,10 @@ A data-driven test framework that turns a permission matrix (YAML) into
 hundreds of automated checks, with a one-command report and CI wiring.
 
 ## Quick start
+
+![Passing run](docs/pass.png)
+![Failing run with injected bug](docs/fail.png)
+
 ```
 make setup
 make test        # green run + HTML report in reports/report.html
