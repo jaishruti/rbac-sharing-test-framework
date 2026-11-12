@@ -1,0 +1,16 @@
+# Single source of truth for expected permissions.
+# Add a role / resource type / action here and the suite grows automatically.
+actions: [view, edit, delete, share, unshare]
+resource_types: [workflow, knowledge_base, agent, folder]
+
+default:
+  owner:  [view, edit, delete, share, unshare]
+  admin:  [view, edit, delete, share, unshare]
+  editor: [view, edit]
+  viewer: [view]
+  none:   []
+
+# Per-type exceptions to the default matrix
+overrides:
+  agent:
+    editor: [view, edit, share]
