@@ -1,3 +1,4 @@
+![CI](https://github.com/jaishruti/rbac-sharing-test-framework/actions/workflows/ci.yml/badge.svg)
 # RBAC & Sharing Regression Framework
 
 A data-driven test framework that turns a permission matrix (YAML) into
